@@ -4,7 +4,7 @@ import { Track } from "@/interfaces";
 
 export default createStore({
   state: {
-    interfaceVisible: false,
+    interfaceVisible: true,
     tracks: [
       {
         art: require("../assets/01-track-art.png"),
